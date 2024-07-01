@@ -5,7 +5,15 @@ public class Smallest {
         // Write some code here
         // don't print anything inside this method
         // there must be a return in the end of the method
-        return -1;
+        int smallest = 0;
+        
+        if (number1 > number2) {
+            smallest = number2;
+        } else if (number1 < number2) {
+            smallest = number1;
+        }
+        
+        return smallest;
     }
 
     public static void main(String[] args) {
