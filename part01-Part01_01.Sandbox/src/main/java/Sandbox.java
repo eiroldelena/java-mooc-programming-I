@@ -3,7 +3,10 @@ public class Sandbox {
 
     public static void main(String[] args) {
         // Write your program here
-        System.out.println("Hello World!");
-        System.out.println("...and the Universe!");
+        System.out.println("Testing...");
+        
+        Person eirol = new Person("Eirol", 23);
+        
+        eirol.printPerson();
     }
 }
