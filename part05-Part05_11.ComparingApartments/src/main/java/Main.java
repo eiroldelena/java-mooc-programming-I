@@ -7,5 +7,8 @@ public class Main {
         Apartment atlantaTwoBedroomApt = new Apartment(2, 38, 4200);
         Apartment bangorThreeBedroomApt = new Apartment(3, 78, 2500);
   
+        
+        boolean wasLarger = manhattanStudioApt.moreExpensiveThan(atlantaTwoBedroomApt);
+        System.out.println("Is Manhattan Studio Apt larger than Atlanta Two-Bedroom Apt? " + wasLarger);
     }
 }
