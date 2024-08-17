@@ -10,6 +10,10 @@ public class SimpleDictionary {
     }
 
     public String translate(String word) {
+        if (!this.translations.containsKey(word)) {
+            return "Word " + word + " was not found";
+        }
+
         return this.translations.get(word);
     }
 

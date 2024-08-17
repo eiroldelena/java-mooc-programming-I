@@ -1,4 +1,4 @@
-
+    
 public class Main {
 
     public static void main(String[] args) {
@@ -22,6 +22,9 @@ public class Main {
         j.add("phoenix");
         System.out.println(j);
         
+        SimpleCollection e = new SimpleCollection("test");
         
+        e.add("eirol");
+        System.out.println(e);
     }
 }
